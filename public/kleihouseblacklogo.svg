@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.48 86.54">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: Butler-Free-Bd, 'Butler FREE VERSION';
+        font-size: 72px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        font-family: Argumentum-Thin, Argumentum;
+        font-size: 7px;
+        font-weight: 200;
+        letter-spacing: .12em;
+      }
+    </style>
+  </defs>
+  <g class="cls-5">
+    <text class="cls-3" transform="translate(0 61.34)"><tspan x="0" y="0">k</tspan></text>
+    <text class="cls-3" transform="translate(40.25 61.34)"><tspan class="cls-1" x="0" y="0">l</tspan><tspan class="cls-2" x="16.27" y="0">e</tspan></text>
+    <text class="cls-3" transform="translate(94.18 61.34)"><tspan x="0" y="0">i</tspan></text>
+  </g>
+  <g class="cls-5">
+    <text class="cls-4" transform="translate(47.09 75.9)"><tspan x="0" y="0">HOUSE</tspan></text>
+  </g>
+</svg>

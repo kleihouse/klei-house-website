@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.48 86.54">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        font-family: Butler-Free-Bd, 'Butler FREE VERSION';
+        font-size: 72px;
+      }
+
+      .cls-3, .cls-5 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g class="cls-5">
+    <text class="cls-3" transform="translate(0 61.34)"><tspan x="0" y="0">k</tspan></text>
+    <text class="cls-3" transform="translate(40.25 61.34)"><tspan class="cls-1" x="0" y="0">l</tspan><tspan class="cls-4" x="16.27" y="0">e</tspan></text>
+    <text class="cls-3" transform="translate(94.18 61.34)"><tspan x="0" y="0">i</tspan></text>
+  </g>
+  <g class="cls-5">
+    <g class="cls-5">
+      <path class="cls-2" d="m51.31,75.9h-.49v-2.3h-2.68v2.3h-.49v-4.73h.49v2.04h2.68v-2.04h.49v4.73Z"/>
+      <path class="cls-2" d="m56.42,75.53c-.33.31-.81.48-1.37.48s-1.04-.17-1.37-.48c-.33-.3-.57-.82-.57-1.99s.23-1.67.54-1.97c.33-.33.82-.5,1.39-.5s1.06.18,1.39.5c.31.3.54.81.54,1.97s-.24,1.69-.57,1.99Zm-.35-3.68c-.25-.22-.6-.34-1.02-.34s-.77.12-1.02.34c-.24.21-.41.66-.41,1.69s.17,1.45.39,1.66c.25.23.61.36,1.04.36s.79-.13,1.04-.36c.22-.21.39-.64.39-1.66s-.18-1.48-.41-1.69Z"/>
+      <path class="cls-2" d="m62.17,74.48c0,1.06-.69,1.53-1.72,1.53s-1.72-.47-1.72-1.53v-3.31h.49v3.31c0,.77.5,1.09,1.23,1.09s1.23-.32,1.23-1.09v-3.31h.49v3.31Z"/>
+      <path class="cls-2" d="m65.29,76.01c-.62,0-1.2-.22-1.51-.58l.29-.36c.38.34.74.49,1.23.49.76,0,1.08-.41,1.08-.93,0-.48-.27-.8-.85-.95l-.69-.18c-.6-.16-.98-.46-.98-1.16,0-.63.41-1.27,1.5-1.27.48,0,.97.2,1.24.46l-.27.36c-.2-.17-.6-.38-.98-.38-.71,0-.99.36-.99.79,0,.39.23.62.6.71l.74.2c.79.21,1.18.66,1.18,1.39s-.44,1.4-1.58,1.4Z"/>
+      <path class="cls-2" d="m71.32,75.9h-2.77v-4.73h2.61v.39h-2.12v1.65h1.37v.39h-1.37v1.91h2.28v.39Z"/>
+    </g>
+  </g>
+</svg>
