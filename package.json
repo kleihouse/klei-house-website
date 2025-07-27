@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "description": "Modern, minimal website for Klei House creative workshop business",
-  "keywords": ["pottery", "ceramics", "creative workshops", "art studio", "next.js", "react"],
+  "keywords": [
+    "pottery",
+    "ceramics",
+    "creative workshops",
+    "art studio",
+    "next.js",
+    "react"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,20 +18,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "15.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "15.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "autoprefixer": "^10",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8",
     "eslint-config-next": "15.1.4",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
   }
 }

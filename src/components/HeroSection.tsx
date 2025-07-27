@@ -29,7 +29,7 @@ const HeroSection = () => {
           onClick={() => document.getElementById('workshops')?.scrollIntoView({ behavior: 'smooth' })}
           className="hero-cta"
         >
-          Explore Workshops
+          Get Ticket
         </button>
       </div>
     </section>
