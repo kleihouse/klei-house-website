@@ -84,6 +84,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: opacity 0.2s ease;
   width: 280px !important;
   height: 80px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  filter: brightness(0) invert(1);
 }
 
 .nav-links {
@@ -97,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
   font-size: 14px;
   font-weight: 400;
-  color: #666;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s ease;
   position: relative;
@@ -108,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover {
-  color: #2d2d2d;
+  color: #f0f0f0;
 }
 
 .nav-link::after {
@@ -118,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 0;
   height: 1px;
-  background: #2d2d2d;
+  background: #ffffff;
   transition: width 0.3s ease;
 }
 
@@ -198,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   font-size: 22px;
   font-weight: 300;
-  color: #2d2d2d;
+  color: #ffffff;
   padding: 16px 0;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -214,13 +219,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   width: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(45, 45, 45, 0.6), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
   transition: all 0.4s ease;
   transform: translateX(-50%);
 }
 
 .mobile-nav-link:hover {
-  color: rgba(45, 45, 45, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   transform: translateY(-2px);
 }
 
@@ -642,6 +647,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 80px !important;
     max-width: none !important;
     max-height: none !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    image-rendering: crisp-edges !important;
+    image-rendering: -webkit-optimize-contrast !important;
   }
   
   /* Hide desktop nav and show mobile menu button */
@@ -835,4 +844,23 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-menu-btn {
     display: flex !important;
   }
+}
+
+/* Contact Email Button */
+.contact-email-button {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  padding: 12px 32px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.contact-email-button:hover {
+  background-color: #a76553;
+  color: white;
+  border-color: #a76553;
 }

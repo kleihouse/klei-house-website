@@ -6,20 +6,20 @@ const WorkshopsSection = () => {
   const workshops = [
     {
       id: 1,
-      title: "Beginner&apos;s Pottery",
-      description: "Perfect for those new to clay work. Learn basic wheel throwing techniques and hand-building methods in a supportive environment.",
-      duration: "3 hours",
+      title: "Clay",
+      description: "An introduction to working with air-dry clay. Learn basic hand-building techniques to create your own sculptural or functional pieces.",
+      duration: "2 hours",
       level: "Beginner",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/beginner.jpeg",
       features: ["Wheel throwing basics", "Hand-building techniques", "Glazing introduction", "Take home your creations"]
     },
     {
       id: 2,
-      title: "Advanced Ceramics",
-      description: "Develop your skills with complex techniques, advanced glazing methods, and sculptural approaches to ceramic art.",
-      duration: "4 hours",
+      title: "Turkish Mosaic Lamp",
+      description: "Explore the vibrant art of mosaic lamp making. Create your own glowing piece using hand-cut glass tiles and traditional patterns inspired by Turkish design.",
+      duration: "2 hours",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/mozaik.jpeg",
       features: ["Complex throwing techniques", "Advanced glazing", "Sculptural methods", "Kiln firing techniques"]
     },
     {
@@ -33,18 +33,18 @@ const WorkshopsSection = () => {
     },
     {
       id: 4,
-      title: "Mindful Making",
-      description: "Combine meditation and mindfulness with clay work. A therapeutic workshop focusing on the meditative aspects of ceramic art.",
-      duration: "2.5 hours",
+      title: "Rug Weaving",
+      description: "Discover the basics of traditional rug weaving. Learn how to set up a loom and weave your own small textile piece using colorful yarns and simple patterns.",
+      duration: "2 hours",
       level: "All levels",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/rug.jpeg",
       features: ["Mindfulness techniques", "Stress relief focus", "Therapeutic approach", "Small group setting"]
     },
     {
       id: 5,
       title: "Couples Workshop",
       description: "Create together in this romantic workshop designed for couples. Make matching pieces while enjoying quality time together.",
-      duration: "3.5 hours",
+      duration: "2 hours",
       level: "All levels",
       image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       features: ["Couples activities", "Romantic atmosphere", "Collaborative projects", "Wine and snacks included"]
@@ -53,7 +53,7 @@ const WorkshopsSection = () => {
       id: 6,
       title: "Corporate Team Building",
       description: "Strengthen team bonds through creative collaboration. Perfect for corporate groups looking for unique team-building experiences.",
-      duration: "4 hours",
+      duration: "2 hours",
       level: "All levels",
       image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       features: ["Team building focus", "Group projects", "Leadership activities", "Catering available"]

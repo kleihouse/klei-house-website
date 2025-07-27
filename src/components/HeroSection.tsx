@@ -21,8 +21,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="hero-subtitle">
-          Discover the art of pottery and ceramics in our minimal, 
-          inspiring workshop space.
+          Discover the beauty of hands-on craft through clay, mosaic, and weaving in our warm, inspiring studio space.
         </p>
         
         <button 
