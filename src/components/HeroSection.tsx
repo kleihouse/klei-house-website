@@ -24,12 +24,14 @@ const HeroSection = () => {
           Discover the beauty of hands-on craft through clay, mosaic, and weaving in our warm, inspiring studio space.
         </p>
         
-        <button 
-          onClick={() => document.getElementById('workshops')?.scrollIntoView({ behavior: 'smooth' })}
+        <a 
+          href="https://lu.ma/kleihouse"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hero-cta"
         >
           Get Ticket
-        </button>
+        </a>
       </div>
     </section>
   )
