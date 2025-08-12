@@ -844,6 +844,53 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-menu-btn {
     display: flex !important;
   }
+
+  /* Workshops page mobile styles */
+  .workshops-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    padding: 0 !important;
+  }
+
+  .workshop-card {
+    margin: 0 !important;
+  }
+
+  .workshop-content {
+    padding: 24px !important;
+  }
+
+  .workshop-cta-section {
+    margin-top: 80px !important;
+    padding: 40px 20px !important;
+  }
+
+  /* About page mobile styles */
+  .about-hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    text-align: center !important;
+  }
+
+  .about-hero-grid .about-text {
+    order: 2 !important;
+  }
+
+  .about-hero-grid .about-image {
+    order: 1 !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .about-values-section {
+    padding: 60px 20px !important;
+    margin-top: 60px !important;
+  }
 }
 
 /* Contact Email Button */

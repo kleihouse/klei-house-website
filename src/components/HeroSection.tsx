@@ -25,12 +25,10 @@ const HeroSection = () => {
         </p>
         
         <a 
-          href="https://lu.ma/kleihouse"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/workshops"
           className="hero-cta"
         >
-          Get Ticket
+          Upcoming Workshops
         </a>
       </div>
     </section>

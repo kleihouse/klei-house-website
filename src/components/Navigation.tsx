@@ -32,8 +32,8 @@ const Navigation = () => {
     <>
       <nav className="nav">
         <div className="nav-container">
-          <button 
-            onClick={() => scrollToSection('hero')}
+          <a 
+            href="/"
             className="nav-logo"
           >
             <img
@@ -41,16 +41,16 @@ const Navigation = () => {
               alt="Klei House"
               className="nav-logo-img mobile-logo-big"
             />
-          </button>
+          </a>
           
           {/* Desktop Navigation */}
           <div className="nav-links desktop-nav">
-            <button onClick={() => scrollToSection('about')} className="nav-link">
+            <a href="/about" className="nav-link">
               About
-            </button>
-            <button onClick={() => scrollToSection('workshops')} className="nav-link">
+            </a>
+            <a href="/workshops" className="nav-link">
               Workshops
-            </button>
+            </a>
             <button onClick={() => scrollToSection('contact')} className="nav-link">
               Contact
             </button>
@@ -207,8 +207,9 @@ const Navigation = () => {
 
             {/* Navigation Items */}
             <nav style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-              <button 
-                onClick={() => scrollToSection('about')} 
+              <a 
+                href="/about"
+                onClick={closeMobileMenu}
                 style={{
                   background: 'none',
                   border: 'none',
@@ -220,7 +221,9 @@ const Navigation = () => {
                   textAlign: 'left',
                   padding: '12px 0',
                   borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
-                  position: 'relative'
+                  position: 'relative',
+                  textDecoration: 'none',
+                  display: 'block'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.color = '#8B4513'
@@ -232,10 +235,11 @@ const Navigation = () => {
                 }}
               >
                 About
-              </button>
+              </a>
               
-              <button 
-                onClick={() => scrollToSection('workshops')} 
+              <a 
+                href="/workshops"
+                onClick={closeMobileMenu}
                 style={{
                   background: 'none',
                   border: 'none',
@@ -247,7 +251,9 @@ const Navigation = () => {
                   textAlign: 'left',
                   padding: '12px 0',
                   borderBottom: '1px solid rgba(0, 0, 0, 0.05)',
-                  position: 'relative'
+                  position: 'relative',
+                  textDecoration: 'none',
+                  display: 'block'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.color = '#8B4513'
@@ -259,7 +265,7 @@ const Navigation = () => {
                 }}
               >
                 Workshops
-              </button>
+              </a>
               
               <button 
                 onClick={() => scrollToSection('contact')} 
