@@ -20,7 +20,7 @@ const workshops: Workshop[] = [
   {
     id: 1,
     title: "Beginner's Clay Workshop",
-    date: "2025-01-20",
+    date: "2026-01-20",
     time: "14:00",
     duration: "3 hours",
     description: "Learn the fundamentals of working with clay. Create your first ceramic piece in our welcoming studio environment.",
@@ -32,7 +32,7 @@ const workshops: Workshop[] = [
   {
     id: 2,
     title: "Mosaic Art Creation",
-    date: "2025-01-25", 
+    date: "2026-01-25", 
     time: "10:00",
     duration: "4 hours",
     description: "Design and create stunning mosaic artwork using traditional and contemporary techniques.",
@@ -44,7 +44,7 @@ const workshops: Workshop[] = [
   {
     id: 3,
     title: "Traditional Weaving",
-    date: "2025-02-01",
+    date: "2026-02-01",
     time: "13:00", 
     duration: "5 hours",
     description: "Discover the ancient art of weaving. Create beautiful textiles using traditional looms and techniques.",
@@ -56,7 +56,7 @@ const workshops: Workshop[] = [
   {
     id: 4,
     title: "Advanced Clay Sculpting",
-    date: "2025-02-08",
+    date: "2026-02-08",
     time: "11:00",
     duration: "6 hours", 
     description: "Take your clay skills to the next level with advanced sculpting techniques and glazing methods.",
@@ -68,7 +68,7 @@ const workshops: Workshop[] = [
   {
     id: 5,
     title: "Mosaic Tile Workshop",
-    date: "2025-02-15",
+    date: "2026-02-15",
     time: "15:00",
     duration: "3 hours",
     description: "Focus on small-scale mosaic work perfect for home decoration and personal projects.",
@@ -80,7 +80,7 @@ const workshops: Workshop[] = [
   {
     id: 6,
     title: "Contemporary Weaving",
-    date: "2025-02-22",
+    date: "2026-02-22",
     time: "12:00",
     duration: "4 hours",
     description: "Explore modern weaving techniques and create contemporary textile art pieces.",
